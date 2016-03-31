@@ -1,15 +1,16 @@
 {
   "name": "voting-server",
   "version": "0.2.0",
-  "description": "",
+  "description": "A Voting Tournament server built by following the instructions in the [Full Stack Redux Tutorial](http://teropa.info/blog/2015/09/10/full-stack-redux-tutorial.html) by [@teropa](https://github.com/teropa)",
   "main": "index.js",
   "scripts": {
+    "start": "babel-node index.js",
     "lint": "eslint . --ext .js --ext .jsx || true",
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive",
     "test:watch": "npm run test -- --watch"
   },
   "keywords": [],
-  "author": "",
+  "author": "Anshuman Fotedar",
   "license": "ISC",
   "devDependencies": {
     "babel-cli": "^6.6.5",
@@ -27,11 +28,23 @@
   },
   "dependencies": {
     "immutable": "^3.7.6",
-    "redux": "^3.3.1"
+    "redux": "^3.3.1",
+    "socket.io": "^1.4.5"
   },
   "babel": {
     "presets": [
       "es2015"
     ]
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anshumanf/teropa-voting-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/anshumanf/teropa-voting-server/issues"
+  },
+  "homepage": "https://github.com/anshumanf/teropa-voting-server#readme"
 }
