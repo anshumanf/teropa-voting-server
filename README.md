@@ -1,4 +1,4 @@
-# SurviveJS Kanban
+# Teropa Voting Tournament Server
 
 A Voting Tournament server built by following the instructions in the [Full Stack Redux Tutorial](http://teropa.info/blog/2015/09/10/full-stack-redux-tutorial.html) by [@teropa](https://github.com/teropa)
 
