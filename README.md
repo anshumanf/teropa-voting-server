@@ -4,5 +4,8 @@ A Voting Tournament server built by following the instructions in the [Full Stac
 
 ## Changelog
 
+0.2
+  * Build a Redux store from the reducer
+
 0.1
   * Tests and implementations for core operations and a single reducer with no subreducers
